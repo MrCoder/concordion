@@ -24,3 +24,9 @@ infer-out/
 
 # asdf
 .tool-versions
+
+# Node / TypeScript implementation
+node_modules/
+packages/*/dist/
+*.tsbuildinfo
+coverage/

@@ -4,6 +4,13 @@
 
 [Concordion](http://www.concordion.org) is an open source runner for executable specifications that creates rich living documentation.
 
+> **TypeScript preview:** an additive, experimental `@concordion/core`
+> implementation lives in [`packages/core`](packages/core). It supports
+> TypeScript fixtures, asynchronous methods, a restricted expression evaluator,
+> basic HTML commands, and HTML result decoration. See
+> [`MIGRATION.md`](MIGRATION.md) for its compatibility profile and remaining
+> milestones. The Java implementation remains the production implementation.
+
 Users should see the [Concordion](http://www.concordion.org) web site for details of how to download and use Concordion.
 
 This README covers information for people wanting to work with the Concordion Java source code. 
@@ -105,5 +112,4 @@ See the [wiki](https://github.com/concordion/concordion/wiki) for our version nu
 Project History
 =========
 History prior to April 2013 is in Google code archive [code](https://code.google.com/archive/p/concordion/source/default/source) and [history](https://code.google.com/archive/p/concordion/source/default/commits).
-
 
