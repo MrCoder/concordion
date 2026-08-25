@@ -1,0 +1,16 @@
+{
+  "name": "concordion-typescript-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build:ts": "tsc -b && tsc -p packages/core/tsconfig.test.json",
+    "test:ts": "vitest run",
+    "check:ts": "npm run build:ts && npm run test:ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
